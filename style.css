@@ -1,0 +1,217 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  html { scroll-behavior: smooth;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
+body {
+  background-image: url('https://i.pinimg.com/originals/9b/d0/1c/9bd01c029a250faad67684c903a3637b.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+ }
+
+  header {
+    background: rgb(110,10,30);
+background: linear-gradient(180deg, rgba(110,10,30,1) 24%, rgba(255,255,255,1) 100%);
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    border-color: #945643;
+  }
+  nav {
+    float: left; 
+  }
+  nav ul {
+    list-style: none;
+    overflow: hidden; 
+  }
+  
+  nav ul li {
+    float: left;
+    display: flex;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  
+  nav ul li a {
+    display: block; 
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav ul li:hover {
+    background: #945643;
+  }
+  /*Agregamos margenes inferiores a los parrafos*/
+  p {
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+  #menu :hover{
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/299/323/702/line-red-strip-dark-colors-wallpaper-preview.jpg');
+  }
+  #inicio{
+    display: flex;
+    padding: 30px;
+    gap:  70px;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    height: auto;
+    
+  }
+  .contenido {
+    padding-top: 80px;
+    width: 80%;
+    margin: auto;
+    overflow:hidden;
+  }
+  
+  #formacion2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+    gap: 60px;
+    border-radius: 10px;
+    background-color: white;
+    
+  }
+  #foto{
+    border-radius: 100%;
+    align-items: end;
+    width: 200px;
+  }
+  .titulo{
+    color: white;
+    font-size: 2em;
+    border: 9px;
+    margin-top: 30px;
+    border-radius: 10px;
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/299/323/702/line-red-strip-dark-colors-wallpaper-preview.jpg');
+    
+  }
+  #redes{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 5px;
+    height: 40px;
+  }
+#mas{
+  align-items: end;
+  color: blue;
+  width: 60px;
+  height: 30px;
+  border-radius: 5px;
+}
+#menos{
+  align-items: end;
+  color: blue;
+  width: 60px;
+  height: 30px;
+  border-radius: 5px;
+}
+#mas2{
+  align-items: end;
+  color: blue;
+  width: 60px;
+  height: 30px;
+  border-radius: 5px;
+}
+#menos2{
+  align-items: end;
+  color: blue;
+  width: 60px;
+  height: 30px;
+  border-radius: 5px;
+}
+#estudio{
+  flex-direction: column;
+  display: flex;
+  padding: 20px;
+  padding-left: 50px;
+  gap: 5px;
+  background-color: white;
+  border-radius: 5px;
+}
+#habilidades{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    padding-left: 50px;
+      }
+#intereses{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px;
+  padding-left: 50px;
+}
+#experiencia{
+  border-radius: 10px;
+  border-color: #945643;
+  border-style: none;
+  display: flex;
+  align-items: row;
+  background-color: white;
+  padding: 20px;
+  gap: 20px;
+  padding-left: 50px;
+}
+#experiencia2{
+    border-radius: 10px;
+    border-color: #945643;
+    background-color: white;
+    border-style: none;
+    display: flex;
+    align-items: row;
+    padding: 20px;
+    gap: 20px;
+  }
+  #experiencia3{
+    border-radius: 10px;
+    border-color: #945643;
+    background-color: white;
+    border-style: none;
+    display: flex;
+    align-items: row;
+    padding: 20px;
+    gap: 20px;
+    padding-left: 50px;
+  }
+  #imgepsa{
+    border-radius: 5px;
+    width: 70%;
+    height: auto;
+  }
+
+  #modulos{
+    border-radius: 10px;
+    border-color: #945643;
+    background-color: white;
+    border-style: none;
+    padding: 20px;
+    
+  }
+  .habilidades{
+    border-radius: 10px;
+    border-color: #945643;
+    background-color: white;
+    border-style: none;
+    padding: 20px;
+    
+  }
